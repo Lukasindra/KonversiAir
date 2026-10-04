@@ -39,6 +39,7 @@
         android:id="@+id/etInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:hint="Masukkan nilai"
         android:inputType="numberDecimal" />
 
@@ -69,6 +70,7 @@
         android:id="@+id/etHasil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:hint="Hasil"
         android:enabled="false" />
 
